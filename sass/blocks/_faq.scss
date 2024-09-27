@@ -1,0 +1,81 @@
+.faq{
+    margin-bottom: 120px;
+}
+
+.faq__title{
+    margin-bottom: 30px;
+
+    h2{
+        font-family: Roboto;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+}
+
+
+
+  .collapsible {
+    
+    &-accordion {
+        // margin-left: 10px;
+        border-top: solid 1px #929292;
+        // margin-bottom: -10px;
+        overflow: hidden;
+
+        &:last-child{
+        border-bottom: solid 1px #929292;
+        }
+
+        input {
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
+          }
+    }
+    &-item {
+      &-label {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 1em 20px 0;
+        cursor: pointer;
+        color: #fff;
+        
+        font-family: Work Sans;
+        font-size: 18px;
+        font-weight: 400;
+        
+        &::after {
+        content: url(./../img/icons/arrow.svg);
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all .35s;
+      }
+      }
+      &-content {
+        max-height: 0;
+        padding: 0 1em;
+        transition: padding 0.35s;
+
+        color: #E8E8E8;
+
+        font-family: Work Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+      }
+    }
+  }
+  
+  input:checked {
+    + .collapsible-item-label {
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+    ~ .collapsible-item-content {
+      max-height: 100vh;
+      padding: 1em 65px 2em 65px;
+    }
+  }

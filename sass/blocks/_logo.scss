@@ -1,0 +1,24 @@
+.logo{
+    display: flex;
+    align-items: center;
+    min-width: 184px;
+
+    h3{
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 0.8;
+
+    }
+
+    span{
+        color: #929292;
+        font-family: Work Sans;
+        font-weight: 400;
+        font-size: 11px;
+    }
+}
+
+.logo__text{
+    margin-left: -25px;
+}

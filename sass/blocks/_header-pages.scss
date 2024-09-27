@@ -1,0 +1,56 @@
+.header__pages {
+    display: flex;
+    justify-content: end;
+}
+.header__pages-row {
+    display: flex;
+    // align-items: center; 
+}
+.header__pages-btns {
+    margin-top: 20px;
+    margin-right: 90px;
+    width: 170px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+    a{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+}
+.header__pages-wrapper {
+    padding-left: 60px;
+    padding-right: 30px;
+    height: 150px;
+    width: 1080px;
+    background-color: #272727;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heager__page-01{
+    display: flex;
+    column-gap: 35px;
+
+    h2{
+        font-family: Roboto;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 55px;
+    }
+
+    p{
+        width: 120px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+    }
+}

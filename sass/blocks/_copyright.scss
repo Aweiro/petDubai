@@ -1,0 +1,20 @@
+.copyright__row {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+
+
+    h4{
+        color: #E8E8E8;
+
+        font-family: Lexend;
+        font-weight: 300;
+        line-height: 160%;
+    }
+}
+
+.copyright__socials{
+    margin-top: 5px;
+    display: flex;
+    column-gap: 20px;
+}

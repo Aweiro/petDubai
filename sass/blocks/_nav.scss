@@ -1,0 +1,34 @@
+.nav {
+	margin-top: 20px;
+}
+
+.nav__row {
+	display: flex;
+	align-items: center;
+}
+
+.nav__right-group {
+	display: flex;
+	column-gap: 53px;
+
+	p {
+		white-space: nowrap;
+	}
+}
+
+.nav__lang {
+	display: flex;
+	column-gap: 8px;
+	align-items: center;
+
+	a {
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 500;
+	}
+}
+
+.nav__content-row {
+	display: flex;
+	justify-content: space-between;
+}

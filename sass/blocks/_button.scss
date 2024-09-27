@@ -1,0 +1,19 @@
+.button{
+    background-color: $accent-color;
+    display: inline-block;
+    height: 41px;
+    padding-left: 14px;
+    padding-right: 14px;
+    line-height: 40px;
+    color: black;
+
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: background-color .2s ease;
+
+    &:hover{
+        background-color: #e0b517;
+    }
+}
